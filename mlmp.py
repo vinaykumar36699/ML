@@ -36,9 +36,6 @@ from sklearn.linear_model import LogisticRegression
 clf=LogisticRegression()
 clf.fit(xtrain_tr,ytrain)
 
-!pip install streamlit
-
-!pip install pyngrok
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile ML_APP.py
